@@ -7,13 +7,13 @@
 </p>
 
 
-*El framework utilizado fue YII y se alcanzo a cubrir los siguientes 3 puntos
+* El framework utilizado fue YII y se alcanzo a cubrir los siguientes 3 puntos
 
-*1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
+* 1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
 
-*2.- Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
+* 2.- Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
 
-*3.- Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
+* 3.- Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
 
 *para instalar el proyecto se puede utilizar git clone, y despues usar el gestor de dependencias composer con el comando `composer install` para instalar los paquetes y dependencias del proyecto
 
