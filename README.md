@@ -9,9 +9,9 @@
 HOLA
 
 Instrucciones
-Crear un repositorio público en GitHub con el código (Prioridad 4).
-Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
-Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
+1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
+2.- Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
+3.- Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
 Implementar controladores y rutas para los endpoints /api/edificios (GET, POST, PUT, DELETE), priorizando POST (inserción) y GET (lectura).
 En el frontend, usar HTML, CSS (con MaterializeCSS, Bootstrap o Tailwind CSS) and JavaScript vanilla para crear el formulario, la tabla y el mapa interactivo con Leaflet.js.
 Usar la API Fetch para consumir las APIs de Nominatim y las proporcionadas, con lógica para detectar si la dirección está en Irapuato (basado en municipio o coordenadas).
