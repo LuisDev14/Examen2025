@@ -8,6 +8,23 @@
 
 HOLA
 
+Instrucciones
+Crear un repositorio público en GitHub con el código (Prioridad 4).
+Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
+Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
+Implementar controladores y rutas para los endpoints /api/edificios (GET, POST, PUT, DELETE), priorizando POST (inserción) y GET (lectura).
+En el frontend, usar HTML, CSS (con MaterializeCSS, Bootstrap o Tailwind CSS) and JavaScript vanilla para crear el formulario, la tabla y el mapa interactivo con Leaflet.js.
+Usar la API Fetch para consumir las APIs de Nominatim y las proporcionadas, con lógica para detectar si la dirección está en Irapuato (basado en municipio o coordenadas).
+Implementar autocompletado de calles y colonias (usando /api/v2/presidencia/getCalles y /api/v2/presidencia/getColonias para Irapuato) y un selector de estado/municipio (usando /api/v1/presidencia/getEstados y /api/v1/presidencia/getMunicipios) (Prioridad 1).
+Agregar funcionalidad para seleccionar un punto en el mapa Leaflet.js y obtener la dirección con /api/v2/presidencia/getDireccion (Irapuato) o Nominatim (fuera de Irapuato) (Prioridad 1).
+Incluir un archivo README.md (Prioridad 4) con:
+Instrucciones para configurar y ejecutar la aplicación (instalación de dependencias, configuración del backend, base de datos, URL base y token).
+Justificación de la elección del framework CSS, del lenguaje backend y de la base de datos.
+Explicación de cómo se combinan los métodos para maximizar precisión en la georeferenciación.
+Instrucciones para configurar las variables de entorno (API_BASE_URL y API_BEARER_TOKEN).
+Manejar errores de las APIs (e.g., 400, 500) y mostrar mensajes claros al usuario.
+Entregar el enlace del repositorio al finalizar las 4 horas del examen.
+
 
 
 Yii 2 Basic Project Template is a skeleton [Yii 2](https://www.yiiframework.com/) application best for
