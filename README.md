@@ -14,6 +14,10 @@
 
 *3.- Crear un modelo Edificio con migración para la tabla edificios con los campos id, nombre, numero, letra_interior, latitud, longitud.
 
+*para instalar el proyecto se puede utilizar git clone, y despues usar el gestor de dependencias composer con el comando `composer install` para instalar los paquetes y dependencias del proyecto
+
+
+
 
 
 
