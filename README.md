@@ -9,6 +9,7 @@
 HOLA
 
 Instrucciones
+
 1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
 
 2.- Configurar un proyecto con el lenguaje backend elegido (preferentemente PHP con Laravel, CodeIgniter o Yii) y la base de datos elegida (PostgreSQL, MySQL, MariaDB o SQLite).
