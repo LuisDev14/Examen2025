@@ -6,6 +6,7 @@
     <br>
 </p>
 
+
 *El framewoor utilizado fue YII y se alcanzo a cubrir los siguientes 3 puntos
 
 *1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
@@ -16,7 +17,7 @@
 
 *para instalar el proyecto se puede utilizar git clone, y despues usar el gestor de dependencias composer con el comando `composer install` para instalar los paquetes y dependencias del proyecto
 
-
+* se creo la migracion en la carpeta migrations con la respectiva tabla lamada edificios en Mysql, con phpmyadmin
 
 
 
