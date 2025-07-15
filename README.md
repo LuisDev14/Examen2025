@@ -7,7 +7,7 @@
 </p>
 
 
-*El framewoor utilizado fue YII y se alcanzo a cubrir los siguientes 3 puntos
+*El framework utilizado fue YII y se alcanzo a cubrir los siguientes 3 puntos
 
 *1.- Crear un repositorio público en GitHub con el código (Prioridad 4).
 
