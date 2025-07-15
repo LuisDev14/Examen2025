@@ -19,6 +19,8 @@
 
 * se creo la migracion en la carpeta migrations con la respectiva tabla lamada edificios en Mysql, con phpmyadmin
 
+* se utiizo la herramienta de laragon para la creacion del proyecto
+
 
 
 
